@@ -1,3 +1,14 @@
-<p>
-  elevator works!
-</p>
+<div id="wall">
+    <div id="elevator-door">
+        <p>imagine</p>
+        <p>an</p>
+        <p>elevator door</p>
+        <p>here.</p>
+        <p>{{ door.toString() }}</p>
+    </div>
+    <div id="elevator-button-panel">
+        <p>6</p>
+        <button (click)="doorOpen">^</button>
+        <button (click)="doorOpen">v</button>
+    </div>
+</div>

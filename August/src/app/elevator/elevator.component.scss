@@ -1,0 +1,30 @@
+#wall {
+}
+
+#elevator-door {
+    height: 500px;
+    width: 300px;
+    border: 5px solid black;
+    margin-right: 15px;
+    float: left;
+    background-color: silver;
+}
+
+#elevator-button-panel {
+    height: 100px;
+    width: 40px;
+    margin: 200px 0;
+    float: left;
+    border-left: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    background-color: silver;
+    font-family: Arial, sans-serif;
+    overflow: auto;
+
+    p, button {
+        text-align: center;
+        width: 20px;
+        height: 20px;
+    }
+
+}
