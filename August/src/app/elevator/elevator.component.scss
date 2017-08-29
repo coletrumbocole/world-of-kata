@@ -1,5 +1,4 @@
 #wall {
-    justify-content: center;
     border-bottom: 3px solid black;
 }
 
@@ -7,14 +6,18 @@
     height: 500px;
     width: 300px;
     background-color: silver;
-    border: 6px 6px 6px 0 solid lightgray;
+    border-top: 6px solid lightgray;
+    border-left: 6px solid lightgray;
+    border-right: 6px solid lightgray;
     margin-right: 10px;
+    float: left;
 }
 
-#elevator-panel {
+#button-panel {
     height: 100px;
     width: 60px;
     background-color: silver;
     border-left: 2px solid darkgray;
     border-bottom: 2px solid darkgray;
+    float: left;
 }
