@@ -1,1 +1,12 @@
-<p>Elevator works like a charm.</p>
+<p>You are at floor {{ floorNumber }}. </p>
+<p>Elevator door is {{ door.toString() }}.</p>
+
+<p *ngIf="elevator.isCalled">Here comes the elevator... </p>
+<p *ngIf="elevator.isCalled">It's at floor: {{ elevator.getCurrentFloor() }}</p>
+
+
+<p id="player-status">Walked up to the elevator:</p>
+<ul>
+    <li (click)="callUp()">Go up</li>
+    <li (click)="callDown()">Go down</li>
+</ul>
