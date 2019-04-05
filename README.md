@@ -1,13 +1,20 @@
 # world-of-kata
 Programming practice. Tour the world, simulating interesting experiences! Super combo attack for more special!
 
-### Plans:
- - choose a daily starting point.
+## Get Started
+15 Minute Kata: 
+ - Generate new project in one of: Angular, Laravel, React, static vanilla offline site.
+ - Generate cypress project for tests.
+ - Make an elevator door with floor indicator above.
+ - Make an elevator calling button panel.
+ - Add as many fun decorations to the wall and room as possible before time runs out.
+
+## General Plans:
  - organize by kata, not by date.
    - tag after each day of kata.
    - create starting point that I start from for each kata.
- - make Laravel, React, vanilla JS versions of each project.
- - make vagrant box for each dev environment.
+ - make Laravel, React, Angular, vanilla JS versions of each project.
+ - make vagrant box for each dev environment?
  - include tests for various browsers -- especially screenreader.
  - make up a better kata than elevator simulator.
    - Something that works as a week-long project.
@@ -16,9 +23,9 @@ Programming practice. Tour the world, simulating interesting experiences! Super 
       - Something where I have to type 60 wpm for 1 min of it.
  - add offline docs for all the tools I'm using.
  - create Anki/flashcards where it is more efficient than kata.
- - find ways to monitor my work and push myself in new ways (a report about my wpm, a quiz based on code from a project I follow...).
+ - find ways to monitor my work and push myself in new ways (a report about my wpm, a quiz based on code from a github project I follow, a score of my test case quality, a measurement of how broad of the language I am using, a score of how hacky my code is vs how well I used the right tool for the right thing...).
 
-### Elevator Plans:
+## Elevator Plans:
  - accessibility
  - simulated users
  - elevator breakdowns handled nicely
